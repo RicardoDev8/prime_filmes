@@ -1,0 +1,60 @@
+
+.containerHome{
+    max-width: 600px;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+} 
+
+.list-movies article{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    /* margin-top: 70px; */
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: rgb(210, 28, 28);
+}
+
+.list-movies img{
+    max-width: 100%;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(151, 151, 226);
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.botao:hover{
+    opacity: 0.8;
+    color: lightgray;
+    background-color: rgb(210, 28, 28);
+}
+
+.description{
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+
+
+
