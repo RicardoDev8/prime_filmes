@@ -32,13 +32,18 @@ export default function Favorite() {
                 {
                     moviess.map((item) => {
                         return (
+                            <div>
                             <li key={item.id} >
                                 <span>{item.title}</span>
                                 <div>
-                                    <Link to={`/movies/${item.id}`} >Acessar detalhes</Link>
-                                    <button onClick={()=> removeFilm(item.id)} >Excluir</button>
+                                    <Link className='special-button' to={`/movies/${item.id}`} >Acessar detalhes</Link>
+                                    <button className='special-button' onClick={()=> removeFilm(item.id)} >Excluir</button>
                                 </div>
                             </li>
+                            
+                            <Link to='/' className='special-button' >Voltar</Link>
+
+                            </div>
                         );
                     })
                 }

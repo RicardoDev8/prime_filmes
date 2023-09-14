@@ -30,17 +30,24 @@
     margin-right: 14px;
     border: 0;
     cursor: pointer;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     padding: 5px;
     border-radius: 5px;
     transition: all 0.5s;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 106, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .info-buttons a{
     text-decoration: none;
     color: #000;
 }
-
+/* 
 .info-buttons button:hover{
     background-color: brown;
     color: #fff;
@@ -49,4 +56,15 @@
 .info-buttons button a:hover{
     background-color: brown;
     color: #fff; 
-}
+} */
+
+/* .btn-back{
+    position: absolute;
+    right: 28%;
+    background-color: rgb(229, 70, 70);
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 8px;
+    border-radius: 50%;
+} */

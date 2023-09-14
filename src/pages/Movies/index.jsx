@@ -1,5 +1,5 @@
 import { useEffect, useState} from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 
 import api from '../../services/api';
 import './movies.css';
@@ -74,10 +74,11 @@ export default function Movies(){
             <span>Avaliação: {movie.vote_average} / 10</span>
 
             <div className='info-buttons' >
-                <button onClick={saveFilm} >Salvar</button>
-                <button>
+                <button className='special-button' onClick={saveFilm} >Salvar</button>
+                <button className='special-button' >
                     <a target='_blank' href={`https://youtube.com/results?search_query=${movie.title} Trailer`} >Treiler</a>
                 </button>
+                <Link className='special-button' to='/' >Voltar</Link>
             </div>
         </div>
     );
