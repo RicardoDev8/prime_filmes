@@ -37,6 +37,7 @@ export default function Favorite() {
                                 <span>{item.title}</span>
                                 <div>
                                     <Link className='special-button' to={`/movies/${item.id}`} >Acessar detalhes</Link>
+                                    
                                     <button className='special-button' onClick={()=> removeFilm(item.id)} >Excluir</button>
                                 </div>
                             </li>
