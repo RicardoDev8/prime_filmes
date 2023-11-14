@@ -9,7 +9,6 @@ export default function Header(){
             <Link className='titulo' to="/" >Prime Filmes</Link>
             <div className='links' >
                 <Link to="/favorite" >Favoritos</Link>
-                <Link>Contatos</Link>
             </div>
         </div>
     );

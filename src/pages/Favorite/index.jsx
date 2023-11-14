@@ -35,6 +35,7 @@ export default function Favorite() {
                             <div>
                             <li key={item.id} >
                                 <span>{item.title}</span>
+                                
                                 <div>
                                     <Link className='special-button' to={`/movies/${item.id}`} >Acessar detalhes</Link>
                                     
