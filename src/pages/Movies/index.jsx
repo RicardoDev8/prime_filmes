@@ -24,12 +24,10 @@ export default function Movies(){
                 }
             })
             .then((resposta)=>{
-                console.log(resposta)
                 setMovie(resposta.data)
                 setLoading(false)
             })
             .catch(()=>{
-                console.log("Filme não encontrado!!");
                 useNavigate("/", { replace: true });
                 return;
             })

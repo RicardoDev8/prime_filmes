@@ -24,7 +24,6 @@ export default function Home(){
                 }
             })
 
-            console.log(response.data.results)
             setMovies(response.data.results.slice(0, 10))
             setLoading(false)
         }
