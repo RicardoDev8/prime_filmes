@@ -32,8 +32,6 @@
 .list-movies img{
     max-width: 100%;
     display: block;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 
 }
 
@@ -46,8 +44,6 @@
     text-decoration: none;
     font-family: sans-serif;
     padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     margin-bottom: 35px;
 }
 
